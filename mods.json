@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceName": "OrbHunt-test",
+  "mods": {
+    "outrag-secrets": {
+      "displayName": "OH3 test",
+      "description": "Thanks :)",
+      "authors": [
+        "barg"
+      ],
+      "tags": [
+        "challenge"
+      ],
+      "websiteUrl": "https://github.com/all-things-andy-gavin/OG-OrbHunt/blob/main/README_JAK3.md",
+      "supportedGames": [
+        "jak3"
+      ],
+      "versions": [
+        {
+          "version": "0.0.1",
+          "publishedDate": "2026-05-01T07:45:49Z",
+          "supportedGames": [
+            "jak3"
+          ],
+          "settings": {
+            "decompConfigOverride": "",
+            "shareVanillaSaves": false
+          },
+          "assets": {
+            "windows": "https://github.com/all-things-andy-gavin/OG-OrbHunt/releases/download/v0.0.1/windows-v0.0.1.zip"
+          },
+          "assetDownloadCounts": {
+            "windows": 80,
+            "linux": 7,
+            "macos": 2
+          }
+        }
+      ],
+      "perGameConfig": {
+        "jak3": {
+          "coverArtUrl": "https://laopinion.com/wp-content/uploads/sites/3/2026/02/easter-egg-hunt-casa-jardin-ninos.png",
+          "thumbnailArtUrl": "https://laopinion.com/wp-content/uploads/sites/3/2026/02/easter-egg-hunt-casa-jardin-ninos.png",
+          "releaseDate": "2026-05-01"
+        }
+      },
+      "externalLink": null
+    }
+  },
+  "texturePacks": {},
+  "lastUpdated": "2026-05-01T00:22:38.359Z"
+}
