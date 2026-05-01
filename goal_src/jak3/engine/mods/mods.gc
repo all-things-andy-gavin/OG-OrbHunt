@@ -682,7 +682,8 @@
     (('skill-154) (set-vector-meters! (-> arg0 extra trans) 250.7003 1.3349 -270.3506)) ;; between rubble and ramp from canal
     (('skill-168) (set-vector-meters! (-> arg0 extra trans)  344.9586 25.0751 -81.9843)) ;; on pole above door/awning in lil pocket near new haven
     (('crate-1140) (set-vector-meters! (-> arg0 extra trans) 357.54  33.61  -69.56 )) ;; on top of vents near new haven, extended concussor from ^
-    (('crate-1141) (set-vector-meters! (-> arg0 extra trans)  142.6752 18.7872 -133.9132)) ;; under rubble with grind rail in middle area
+    (('crate-1141) (set-vector-meters! (-> arg0 extra trans)  143.2648 18.4572 -133.5234) ;; under rubble with grind rail in middle area
+      (quaternion-set! (-> arg0 quat)  0.2407  -0.6672  0.2427  0.6617))
     (('burning-bush-25) (set-vector-meters! (-> arg0 extra trans) 334.2557 8.0999 -55.3177) ;; 
       (quaternion-set! (-> arg0 quat) 0.0000  0.9999  0.0000  -0.0003))
     (('burning-bush-31) (set-vector-meters! (-> arg0 extra trans) 381.4006 8.0999 -134.5408) ;; 

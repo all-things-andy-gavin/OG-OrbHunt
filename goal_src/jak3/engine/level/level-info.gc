@@ -480,7 +480,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xbb8 #x300 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 #f '(orbs-vinroom display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -15)
                   :fog-height (meters 80)
@@ -622,7 +622,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x300 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-powergd display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -210)
                   :fog-height (meters 80)
@@ -1689,7 +1689,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x20 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-ctygenb display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -15)
                   :fog-height (meters 80)
@@ -1825,7 +1825,7 @@
                    :borrow (new 'static 'level-borrow-info
                       :alias #f
                       :borrow-size (new 'static 'array uint16 5 #x32a #x0 #x0 #x0 #x0)
-                      :borrow-info (new 'static 'array object 5 '(orbs-ctysluma display) #f #f #f #f)
+                      :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                       )
                    :bottom-height (meters -15)
                    :fog-height (meters 80)
@@ -2001,7 +2001,7 @@
                    :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x32a #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-ctyslumb display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                    :bottom-height (meters -15)
                    :fog-height (meters 80)
@@ -2230,7 +2230,7 @@
                    :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-ctyslumc display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                    :bottom-height (meters -15)
                    :fog-height (meters 80)
@@ -2750,7 +2750,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-ctyport display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -15)
                   :fog-height (meters 80)
@@ -2807,7 +2807,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x20 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-ctyfarma display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                    :bottom-height (meters -15)
                    :fog-height (meters 80)
@@ -2864,7 +2864,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x20 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-ctyfarmb display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                    :bottom-height (meters -15)
                    :fog-height (meters 80)
@@ -3157,7 +3157,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x32a #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-ctyinda display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -15)
                   :fog-height (meters 80)
@@ -3290,7 +3290,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-ctyindb display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )                  :bottom-height (meters -15)
                   :fog-height (meters 80)
                   :max-rain 1.0
@@ -3447,7 +3447,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x400 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-stadium display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -100)
                   :fog-height (meters 80)
@@ -3630,7 +3630,7 @@
                    :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xaa #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-stadiumb display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                    :bottom-height (meters -100)
                    :fog-height (meters 80)
@@ -3687,7 +3687,7 @@
                  :borrow (new 'static 'level-borrow-info
                    :alias #f
                    :borrow-size (new 'static 'array uint16 5 #x13a1 #xa #x0 #x0 #x0)
-                   :borrow-info (new 'static 'array object 5 '(ltowera display) '(orbs-ltowera display) #f #f #f)
+                   :borrow-info (new 'static 'array object 5 '(ltowera display) #f #f #f #f)
                    )
                  :bottom-height (meters -150)
                  :fog-height (meters 80)
@@ -3805,7 +3805,7 @@
                  :borrow (new 'static 'level-borrow-info
                    :alias #f
                    :borrow-size (new 'static 'array uint16 5 #x50 #xa0 #x0 #x0)
-                   :borrow-info (new 'static 'array object 5 '(orbs-towerb display) '(orbs-ltowerb display) #f #f #f)
+                   :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                    )
                  :bottom-height (meters -150)
                  :fog-height (meters 80)
@@ -4097,7 +4097,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x12a #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-rubblea display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -4155,7 +4155,7 @@
                    :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x28 #xa #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 #f '(orbs-rubblea2 display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                    :bottom-height (meters -150)
                    :fog-height (meters 80)
@@ -4234,7 +4234,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x20 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-rubbleb display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -4293,7 +4293,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-rubblec display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -4332,7 +4332,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x400 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-rublcst display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -4868,7 +4868,7 @@
                  :borrow (new 'static 'level-borrow-info
                    :alias #f
                    :borrow-size (new 'static 'array uint16 5 #x82a #x0 #x0 #x0 #x0)
-                   :borrow-info (new 'static 'array object 5 '(orbs-hiphog display) #f #f #f #f)
+                   :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                    )
                  :bottom-height (meters -15)
                  :fog-height (meters 80)
@@ -5018,7 +5018,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x1b #x2ee #x20 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 #f #f '(orbs-gungame display) #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -15)
                   :fog-height (meters 80)
@@ -5255,7 +5255,7 @@
                  :borrow (new 'static 'level-borrow-info
                    :alias #f
                    :borrow-size (new 'static 'array uint16 5 #x3e8 #xe6 #x0 #x0 #x0)
-                   :borrow-info (new 'static 'array object 5 '(orbs-freehq display) #f #f #f #f)
+                   :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                    )
                  :bottom-height (meters -150)
                  :fog-height (meters 80)
@@ -5675,7 +5675,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xfa #x120 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(lmhcitya display) '(orbs-mhcitya display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 '(lmhcitya display) #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -5854,7 +5854,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xfa #x120 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(lmhcityb display) '(orbs-mhcityb display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 '(lmhcityb display) #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -6044,7 +6044,7 @@
                 :borrow (new 'static 'level-borrow-info
                   :alias #f
                   :borrow-size (new 'static 'array uint16 5 #x500 #x0 #x0 #x0 #x0)
-                  :borrow-info (new 'static 'array object 5 '(orbs-comba display) #f #f #f #f)
+                  :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                   )
                 :bottom-height (meters -10000)
                 :fog-height (meters 80)
@@ -6482,7 +6482,7 @@
                 :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x20 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-railb display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                 :bottom-height (meters -10000)
                 :fog-height (meters 80)
@@ -6800,7 +6800,7 @@
                 :borrow (new 'static 'level-borrow-info
                   :alias #f
                   :borrow-size (new 'static 'array uint16 5 #xa28 #xa #x0 #x0 #x0)
-                  :borrow-info (new 'static 'array object 5 #f '(orbs-railx display) #f #f #f)
+                  :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                   )
                 :bottom-height (meters -3790)
                 :fog-height (meters 80)
@@ -6941,7 +6941,7 @@
                 :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-minea display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                 :bottom-height (meters -150)
                 :fog-height (meters 80)
@@ -7103,7 +7103,7 @@
                 :borrow (new 'static 'level-borrow-info
                   :alias #f
                   :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                  :borrow-info (new 'static 'array object 5 '(orbs-mineb display) #f #f #f #f)
+                  :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                   )
                 :bottom-height (meters -150)
                 :fog-height (meters 80)
@@ -7231,7 +7231,7 @@
                 :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x32a #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-minec display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                 :bottom-height (meters 40)
                 :fog-height (meters 80)
@@ -7324,7 +7324,7 @@
                 :borrow (new 'static 'level-borrow-info
                   :alias #f
                   :borrow-size (new 'static 'array uint16 5 #x32a #x0 #x0 #x0 #x0)
-                  :borrow-info (new 'static 'array object 5 '(orbs-mined display) #f #f #f #f)
+                  :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                   )
                 :bottom-height (meters -20)
                 :fog-height (meters 80)
@@ -7626,7 +7626,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewb display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -7704,7 +7704,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewc display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -7782,7 +7782,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewd display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -7898,7 +7898,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewe display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -7996,7 +7996,7 @@
                :borrow (new 'static 'level-borrow-info
                 :alias #f
                 :borrow-size (new 'static 'array uint16 5 #x300 #x0 #x0 #x0 #x0)
-                :borrow-info (new 'static 'array object 5 '(orbs-sewf display) #f #f #f #f)
+                :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                 )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8074,7 +8074,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewg display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8152,7 +8152,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewh display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8210,7 +8210,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewi display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8288,7 +8288,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewj display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8386,7 +8386,7 @@
                :borrow (new 'static 'level-borrow-info
                 :alias #f
                 :borrow-size (new 'static 'array uint16 5 #x300 #x0 #x0 #x0 #x0)
-                :borrow-info (new 'static 'array object 5 '(orbs-sewk display) #f #f #f #f)
+                :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                 )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8462,7 +8462,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewl display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8558,7 +8558,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewm display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8634,7 +8634,7 @@
                :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-sewn display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8708,7 +8708,7 @@
                :borrow (new 'static 'level-borrow-info
                   :alias #f
                   :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                  :borrow-info (new 'static 'array object 5 '(orbs-sewo display) #f #f #f #f)
+                  :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                   )
                :bottom-height (meters -229)
                :fog-height (meters 80)
@@ -8986,7 +8986,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x79e #x500 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 #f '(orbs-foresta display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -9143,7 +9143,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-forestb display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -9811,7 +9811,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x258 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-wascitya display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                    :bottom-height (meters -150)
                    :fog-height (meters 80)
@@ -10241,7 +10241,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-wascityb display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                    :bottom-height (meters -150)
                    :fog-height (meters 80)
@@ -10766,7 +10766,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x3dd #x32a #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 #f '(orbs-wasdoors display) #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                    :bottom-height (meters -150)
                    :fog-height (meters 80)
@@ -11274,7 +11274,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x898 #xa #xa #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(wasstadb display) '(orbs-wasstada display)  '(orbs-wasstadb display) #f #f)
+                     :borrow-info (new 'static 'array object 5 '(wasstadb display) #f  #f #f #f)
                      )
                    :bottom-height (meters 10)
                    :fog-height (meters 80)
@@ -12920,7 +12920,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x22d #x32a #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 #f '(orbs-waspala display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -14462,7 +14462,7 @@
                  :borrow (new 'static 'level-borrow-info
                   :alias #f
                   :borrow-size (new 'static 'array uint16 5 #xaf #x0 #x0 #x0 #x0)
-                  :borrow-info (new 'static 'array object 5 '(orbs-desert display) #f #f #f #f)
+                  :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                   )
                  :bottom-height (meters -100)
                  :fog-height (meters 80)
@@ -14553,7 +14553,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-deserta display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -14898,7 +14898,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-desertb display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -14955,7 +14955,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-desertc display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -15012,7 +15012,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-desertd display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -15069,7 +15069,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x3e8 #x32a #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 #f '(orbs-deserte display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -15186,7 +15186,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-desertf display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -15363,7 +15363,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x32a #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-desertg display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -100)
                   :fog-height (meters 80)
@@ -15454,7 +15454,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x200 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-deserth display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -15533,7 +15533,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-deswalk display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -17146,7 +17146,7 @@
                :borrow (new 'static 'level-borrow-info
                 :alias #f
                 :borrow-size (new 'static 'array uint16 5 #x20 #x0 #x0 #x0 #x0)
-                :borrow-info (new 'static 'array object 5 '(orbs-nsta display) #f #f #f #f)
+                :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                 )
                :bottom-height (meters -150)
                :fog-height (meters 80)
@@ -17622,7 +17622,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x40 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-templex display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -17786,7 +17786,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xfa #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-templea display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -18198,7 +18198,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-templeb display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -18296,7 +18296,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xa #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-templec display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -18495,7 +18495,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x6a0 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-templed display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -18733,7 +18733,7 @@
                    :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x6a0 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-volcanox display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                    :bottom-height (meters -100)
                    :fog-height (meters 80)
@@ -19096,7 +19096,7 @@
     :borrow (new 'static 'level-borrow-info
       :alias #f
       :borrow-size (new 'static 'array uint16 5 #x6a0 #x0 #x0 #x0 #x0)
-      :borrow-info (new 'static 'array object 5 '(orbs-volcanoa display) #f #f #f #f)
+      :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
       )
     :bottom-height (meters -100)
     :fog-height (meters 80)
@@ -19185,7 +19185,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x285 #x8fc #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-lfacrm2 display) '(lfacrm2 display) #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f '(lfacrm2 display) #f #f #f)
                      )
                    :bottom-height (meters -150)
                    :fog-height (meters 80)
@@ -19328,7 +19328,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x500 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-lfacrm1 display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -150)
                   :fog-height (meters 80)
@@ -19552,7 +19552,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #xc4e #x100 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(lfaccity display) '(orbs-factoryb display) #f #f #f)
+                     :borrow-info (new 'static 'array object 5 '(lfaccity display) #f #f #f #f)
                      )
                    :bottom-height (meters -150)
                    :fog-height (meters 80)
@@ -19928,7 +19928,7 @@
     :borrow (new 'static 'level-borrow-info
       :alias #f
       :borrow-size (new 'static 'array uint16 5 #xc4e #x100 #x0 #x0 #x0)
-      :borrow-info (new 'static 'array object 5 '(lfaccity display) '(orbs-factoryc display)  #f #f #f)
+      :borrow-info (new 'static 'array object 5 '(lfaccity display) #f  #f #f #f)
       )
     :bottom-height (meters -150)
     :fog-height (meters 80)
@@ -20034,7 +20034,7 @@
                    :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #xc4e #x9c4 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 #f '(orbs-factoryd display) #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                    :bottom-height (meters 516)
                    :fog-height (meters 80)
@@ -20250,7 +20250,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x384 #xaf #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(lprenme display) '(orbs-precura display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 '(lprenme display) #f #f #f #f)
                     )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -20287,7 +20287,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xf0 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-precurb display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -20378,7 +20378,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #x384 #xf0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 #f '(orbs-precurc display) #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -20501,7 +20501,7 @@
                   :borrow (new 'static 'level-borrow-info
                      :alias #f
                      :borrow-size (new 'static 'array uint16 5 #x500 #x0 #x0 #x0 #x0)
-                     :borrow-info (new 'static 'array object 5 '(orbs-precurd display) #f #f #f #f)
+                     :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                      )
                   :bottom-height (meters -20)
                   :fog-height (meters 80)
@@ -20621,7 +20621,7 @@
                   :borrow (new 'static 'level-borrow-info
                     :alias #f
                     :borrow-size (new 'static 'array uint16 5 #xa00 #x0 #x0 #x0 #x0)
-                    :borrow-info (new 'static 'array object 5 '(orbs-halfpipe display) #f #f #f #f)
+                    :borrow-info (new 'static 'array object 5 #f #f #f #f #f)
                     )
                    :bottom-height (meters -100)
                    :fog-height (meters 80)
@@ -21452,215 +21452,215 @@
  `(orbs-level ,index ,name ,visname ,nick ,mood-func borrow)
   )
 
-(define orbs-rubblea (orbs-borrow-level 296 'orbs-rubblea 'orbs-rubblea-vis 'o01 'update-mood-default))
-(define orbs-rubblea2 (orbs-borrow-level 297 'orbs-rubblea2 'orbs-rubblea2-vis 'o02 'update-mood-default))
-(define orbs-rubbleb (orbs-borrow-level 298 'orbs-rubbleb 'orbs-rubbleb-vis 'o03 'update-mood-default))
-(define orbs-rubblec (orbs-borrow-level 299 'orbs-rubblec 'orbs-rubblec-vis 'o04 'update-mood-default))
-(define orbs-rublcst (orbs-borrow-level 300 'orbs-rublcst 'orbs-rublcst-vis 'o05 'update-mood-default))
-(define orbs-precurd (orbs-borrow-level 301 'orbs-precurd 'orbs-precurd-vis 'o06 'update-mood-default))
-(define orbs-precurc (orbs-borrow-level 302 'orbs-precurc 'orbs-precurc-vis 'o07 'update-mood-default))
-(define orbs-precurb (orbs-borrow-level 303 'orbs-precurb 'orbs-precurb-vis 'o08 'update-mood-default))
-(define orbs-precura (orbs-borrow-level 304 'orbs-precura 'orbs-precura-vis 'o09 'update-mood-default))
-(define orbs-minec (orbs-borrow-level 305 'orbs-minec 'orbs-minec-vis 'o10 'update-mood-default))
-(define orbs-mineb (orbs-borrow-level 306 'orbs-mineb 'orbs-mineb-vis 'o11 'update-mood-default))
-(define orbs-minea (orbs-borrow-level 307 'orbs-minea 'orbs-minea-vis 'o12 'update-mood-default))
-(define orbs-mined (orbs-borrow-level 308 'orbs-mined 'orbs-mined-vis 'o13 'update-mood-default))
-(define orbs-freehq (orbs-borrow-level 309 'orbs-freehq 'orbs-freehq-vis 'o14 'update-mood-default))
-(define orbs-lfacrm1 (orbs-borrow-level 310 'orbs-lfacrm1 'orbs-lfacrm1-vis 'o15 'update-mood-default))
-(define orbs-wasdoors (orbs-borrow-level 311 'orbs-wasdoors 'orbs-wasdoors-vis 'o16 'update-mood-default))
-(define orbs-gungame (orbs-borrow-level 312 'orbs-gungame 'orbs-gungame-vis 'o17 'update-mood-default))
-(define orbs-halfpipe (orbs-borrow-level 313 'orbs-halfpipe 'orbs-halfpipe-vis 'o18 'update-mood-default))
-(define orbs-foresta (orbs-borrow-level 314 'orbs-foresta 'orbs-foresta-vis 'o19 'update-mood-default))
-(define orbs-forestb (orbs-borrow-level 315 'orbs-forestb 'orbs-forestb-vis 'o20 'update-mood-default))
-(define orbs-ctyindb (orbs-borrow-level 316 'orbs-ctyindb 'orbs-ctyindb-vis 'o21 'update-mood-default))
-(define orbs-ctyinda (orbs-borrow-level 317 'orbs-ctyinda 'orbs-ctyinda-vis 'o22 'update-mood-default))
-(define orbs-ctygenb (orbs-borrow-level 318 'orbs-ctygenb 'orbs-ctygenb-vis 'o23 'update-mood-default))
-(define orbs-mhcityb (orbs-borrow-level 319 'orbs-mhcityb 'orbs-mhcityb-vis 'o24 'update-mood-default))
-(define orbs-mhcitya (orbs-borrow-level 320 'orbs-mhcitya 'orbs-mhcitya-vis 'o25 'update-mood-default))
-(define orbs-towerb (orbs-borrow-level 321 'orbs-towerb 'orbs-towerb-vis 'o26 'update-mood-default))
-(define orbs-ltowera (orbs-borrow-level 322 'orbs-ltowera 'orbs-ltowera-vis 'o27 'update-mood-default))
-(define orbs-ltowerb (orbs-borrow-level 323 'orbs-ltowerb 'orbs-ltowerb-vis 'o28 'update-mood-default))
-(define orbs-nsta (orbs-borrow-level 324 'orbs-nsta 'orbs-nsta-vis 'o29 'update-mood-default))
-(define orbs-nstb (orbs-borrow-level 325 'orbs-nstb 'orbs-nstb-vis 'o30 'update-mood-default))
-(define orbs-templea (orbs-borrow-level 326 'orbs-templea 'orbs-templea-vis 'o31 'update-mood-default))
-(define orbs-templex (orbs-borrow-level 327 'orbs-templex 'orbs-templex-vis 'o32 'update-mood-default))
-(define orbs-templec (orbs-borrow-level 328 'orbs-templec 'orbs-templec-vis 'o33 'update-mood-default))
-(define orbs-templed (orbs-borrow-level 329 'orbs-templed 'orbs-templed-vis 'o34 'update-mood-default))
-(define orbs-templeb (orbs-borrow-level 330 'orbs-templeb 'orbs-templeb-vis 'o35 'update-mood-default))
-(define orbs-hiphog (orbs-borrow-level 331 'orbs-hiphog 'orbs-hiphog-vis 'o36 'update-mood-default))
-(define orbs-ctyslumc (orbs-borrow-level 332 'orbs-ctyslumc 'orbs-ctyslumc-vis 'o37 'update-mood-default))
-(define orbs-ctyslumb (orbs-borrow-level 333 'orbs-ctyslumb 'orbs-ctyslumb-vis 'o38 'update-mood-default))
-(define orbs-powergd (orbs-borrow-level 334 'orbs-powergd 'orbs-powergd-vis 'o40 'update-mood-default))
-(define orbs-ctyport (orbs-borrow-level 335 'orbs-ctyport 'orbs-ctyport-vis 'o41 'update-mood-default))
-(define orbs-vinroom (orbs-borrow-level 336 'orbs-vinroom 'orbs-vinroom-vis 'o42 'update-mood-default))
-(define orbs-sewl (orbs-borrow-level 337 'orbs-sewl 'orbs-sewl-vis 'o43 'update-mood-default))
-(define orbs-sewm (orbs-borrow-level 338 'orbs-sewm 'orbs-sewm-vis 'o44 'update-mood-default))
-(define orbs-sewn (orbs-borrow-level 339 'orbs-sewn 'orbs-sewn-vis 'o45 'update-mood-default))
-(define orbs-sewo (orbs-borrow-level 340 'orbs-sewo 'orbs-sewo-vis 'o46 'update-mood-default))
-(define orbs-sewk (orbs-borrow-level 341 'orbs-sewk 'orbs-sewk-vis 'o47 'update-mood-default))
-(define orbs-sewg (orbs-borrow-level 342 'orbs-sewg 'orbs-sewg-vis 'o48 'update-mood-default))
-(define orbs-sewh (orbs-borrow-level 343 'orbs-sewh 'orbs-sewh-vis 'o49 'update-mood-default))
-(define orbs-sewi (orbs-borrow-level 344 'orbs-sewi 'orbs-sewi-vis 'o50 'update-mood-default))
-(define orbs-sewj (orbs-borrow-level 345 'orbs-sewj 'orbs-sewj-vis 'o51 'update-mood-default))
-(define orbs-sewb (orbs-borrow-level 346 'orbs-sewb 'orbs-sewb-vis 'o52 'update-mood-default))
-(define orbs-sewc (orbs-borrow-level 347 'orbs-sewc 'orbs-sewc-vis 'o53 'update-mood-default))
-(define orbs-sewd (orbs-borrow-level 348 'orbs-sewd 'orbs-sewd-vis 'o54 'update-mood-default))
-(define orbs-sewe (orbs-borrow-level 349 'orbs-sewe 'orbs-sewe-vis 'o55 'update-mood-default))
-(define orbs-ctysluma (orbs-borrow-level 350 'orbs-ctysluma 'orbs-ctysluma-vis 'o57 'update-mood-default))
-(define orbs-wascitya (orbs-borrow-level 351 'orbs-wascitya 'orbs-wascitya-vis 'o58 'update-mood-default))
-(define orbs-wascityb (orbs-borrow-level 352 'orbs-wascityb 'orbs-wascityb-vis 'o59 'update-mood-default))
-(define orbs-wasstada (orbs-borrow-level 353 'orbs-wasstada 'orbs-wasstada-vis 'o60 'update-mood-default))
-(define orbs-waspala (orbs-borrow-level 354 'orbs-waspala 'orbs-waspala-vis 'o61 'update-mood-default))
-(define orbs-stadium (orbs-borrow-level 355 'orbs-stadium 'orbs-stadium-vis 'o62 'update-mood-default))
-(define orbs-stadiumb (orbs-borrow-level 356 'orbs-stadiumb 'orbs-stadiumb-vis 'o63 'update-mood-default))
-(define orbs-comba (orbs-borrow-level 357 'orbs-comba 'orbs-comba-vis 'o64 'update-mood-default))
-(define orbs-combn (orbs-borrow-level 358 'orbs-combn 'orbs-combn-vis 'o65 'update-mood-default))
-(define orbs-combb (orbs-borrow-level 359 'orbs-combb 'orbs-combb-vis 'o66 'update-mood-default))
-(define orbs-combc (orbs-borrow-level 360 'orbs-combc 'orbs-combc-vis 'o67 'update-mood-default))
-(define orbs-combd (orbs-borrow-level 361 'orbs-combd 'orbs-combd-vis 'o68 'update-mood-default))
-(define orbs-combe (orbs-borrow-level 362 'orbs-combe 'orbs-combe-vis 'o69 'update-mood-default))
-(define orbs-railx (orbs-borrow-level 363 'orbs-railx 'orbs-railx-vis 'o70 'update-mood-default))
-(define orbs-railb (orbs-borrow-level 364 'orbs-railb 'orbs-railb-vis 'o71 'update-mood-default))
-(define orbs-railb2 (orbs-borrow-level 365 'orbs-railb2 'orbs-railb2-vis 'o72 'update-mood-default))
-(define orbs-railc (orbs-borrow-level 366 'orbs-railc 'orbs-railc-vis 'o73 'update-mood-default))
-(define orbs-raild (orbs-borrow-level 367 'orbs-raild 'orbs-raild-vis 'o74 'update-mood-default))
-(define orbs-raile (orbs-borrow-level 368 'orbs-raile 'orbs-raile-vis 'o75 'update-mood-default))
-(define orbs-railf (orbs-borrow-level 369 'orbs-railf 'orbs-railf-vis 'o76 'update-mood-default))
-(define orbs-deswalk (orbs-borrow-level 370 'orbs-deswalk 'orbs-deswalk-vis 'o77 'update-mood-default))
-(define orbs-wasstadb (orbs-borrow-level 371 'orbs-wasstadb 'orbs-wasstadb-vis 'o78 'update-mood-default))
-(define orbs-volcanoa (orbs-borrow-level 372 'orbs-volcanoa 'orbs-volcanoa-vis 'o79 'update-mood-default))
-(define orbs-volcanox (orbs-borrow-level 373 'orbs-volcanox 'orbs-volcanox-vis 'o80 'update-mood-default))
-(define orbs-lfacrm2 (orbs-borrow-level 374 'orbs-lfacrm2 'orbs-lfacrm2-vis 'o81 'update-mood-default))
-(define orbs-factoryd (orbs-borrow-level 375 'orbs-factoryd 'orbs-factoryd-vis 'o82 'update-mood-default))
-(define orbs-factoryb (orbs-borrow-level 376 'orbs-factoryb 'orbs-factoryb-vis 'o83 'update-mood-default))
-(define orbs-factoryc (orbs-borrow-level 377 'orbs-factoryc 'orbs-factoryc-vis 'o84 'update-mood-default))
-(define orbs-desert (orbs-borrow-level 378 'orbs-desert 'orbs-desert-vis 'o85 'update-mood-default))
-(define orbs-desertd (orbs-borrow-level 379 'orbs-desertd 'orbs-desertd-vis 'o86 'update-mood-default))
-(define orbs-desertb (orbs-borrow-level 380 'orbs-desertb 'orbs-desertb-vis 'o87 'update-mood-default))
-(define orbs-deserta (orbs-borrow-level 381 'orbs-deserta 'orbs-deserta-vis 'o88 'update-mood-default))
-(define orbs-desertf (orbs-borrow-level 382 'orbs-desertf 'orbs-desertf-vis 'o89 'update-mood-default))
-(define orbs-deserth (orbs-borrow-level 383 'orbs-deserth 'orbs-deserth-vis 'o90 'update-mood-default))
-(define orbs-desertg (orbs-borrow-level 384 'orbs-desertg 'orbs-desertg-vis 'o91 'update-mood-default))
-(define orbs-deserte (orbs-borrow-level 385 'orbs-deserte 'orbs-deserte-vis 'o92 'update-mood-default))
-(define orbs-desertc (orbs-borrow-level 386 'orbs-desertc 'orbs-desertc-vis 'o93 'update-mood-default))
-(define orbs-sewf (orbs-borrow-level 387 'orbs-sewf 'orbs-sewf-vis 'o94 'update-mood-default))
-(define orbs-ctyfarma (orbs-borrow-level 388 'orbs-ctyfarma 'orbs-ctyfarma-vis 'o95 'update-mood-default))
-(define orbs-ctyfarmb (orbs-borrow-level 389 'orbs-ctyfarmb 'orbs-ctyfarmb-vis 'o96 'update-mood-default))
+;; (define orbs-rubblea (orbs-borrow-level 296 'orbs-rubblea 'orbs-rubblea-vis 'o01 'update-mood-default))
+;; (define orbs-rubblea2 (orbs-borrow-level 297 'orbs-rubblea2 'orbs-rubblea2-vis 'o02 'update-mood-default))
+;; (define orbs-rubbleb (orbs-borrow-level 298 'orbs-rubbleb 'orbs-rubbleb-vis 'o03 'update-mood-default))
+;; (define orbs-rubblec (orbs-borrow-level 299 'orbs-rubblec 'orbs-rubblec-vis 'o04 'update-mood-default))
+;; (define orbs-rublcst (orbs-borrow-level 300 'orbs-rublcst 'orbs-rublcst-vis 'o05 'update-mood-default))
+;; (define orbs-precurd (orbs-borrow-level 301 'orbs-precurd 'orbs-precurd-vis 'o06 'update-mood-default))
+;; (define orbs-precurc (orbs-borrow-level 302 'orbs-precurc 'orbs-precurc-vis 'o07 'update-mood-default))
+;; (define orbs-precurb (orbs-borrow-level 303 'orbs-precurb 'orbs-precurb-vis 'o08 'update-mood-default))
+;; (define orbs-precura (orbs-borrow-level 304 'orbs-precura 'orbs-precura-vis 'o09 'update-mood-default))
+;; (define orbs-minec (orbs-borrow-level 305 'orbs-minec 'orbs-minec-vis 'o10 'update-mood-default))
+;; (define orbs-mineb (orbs-borrow-level 306 'orbs-mineb 'orbs-mineb-vis 'o11 'update-mood-default))
+;; (define orbs-minea (orbs-borrow-level 307 'orbs-minea 'orbs-minea-vis 'o12 'update-mood-default))
+;; (define orbs-mined (orbs-borrow-level 308 'orbs-mined 'orbs-mined-vis 'o13 'update-mood-default))
+;; (define orbs-freehq (orbs-borrow-level 309 'orbs-freehq 'orbs-freehq-vis 'o14 'update-mood-default))
+;; (define orbs-lfacrm1 (orbs-borrow-level 310 'orbs-lfacrm1 'orbs-lfacrm1-vis 'o15 'update-mood-default))
+;; (define orbs-wasdoors (orbs-borrow-level 311 'orbs-wasdoors 'orbs-wasdoors-vis 'o16 'update-mood-default))
+;; (define orbs-gungame (orbs-borrow-level 312 'orbs-gungame 'orbs-gungame-vis 'o17 'update-mood-default))
+;; (define orbs-halfpipe (orbs-borrow-level 313 'orbs-halfpipe 'orbs-halfpipe-vis 'o18 'update-mood-default))
+;; (define orbs-foresta (orbs-borrow-level 314 'orbs-foresta 'orbs-foresta-vis 'o19 'update-mood-default))
+;; (define orbs-forestb (orbs-borrow-level 315 'orbs-forestb 'orbs-forestb-vis 'o20 'update-mood-default))
+;; (define orbs-ctyindb (orbs-borrow-level 316 'orbs-ctyindb 'orbs-ctyindb-vis 'o21 'update-mood-default))
+;; (define orbs-ctyinda (orbs-borrow-level 317 'orbs-ctyinda 'orbs-ctyinda-vis 'o22 'update-mood-default))
+;; (define orbs-ctygenb (orbs-borrow-level 318 'orbs-ctygenb 'orbs-ctygenb-vis 'o23 'update-mood-default))
+;; (define orbs-mhcityb (orbs-borrow-level 319 'orbs-mhcityb 'orbs-mhcityb-vis 'o24 'update-mood-default))
+;; (define orbs-mhcitya (orbs-borrow-level 320 'orbs-mhcitya 'orbs-mhcitya-vis 'o25 'update-mood-default))
+;; (define orbs-towerb (orbs-borrow-level 321 'orbs-towerb 'orbs-towerb-vis 'o26 'update-mood-default))
+;; (define orbs-ltowera (orbs-borrow-level 322 'orbs-ltowera 'orbs-ltowera-vis 'o27 'update-mood-default))
+;; (define orbs-ltowerb (orbs-borrow-level 323 'orbs-ltowerb 'orbs-ltowerb-vis 'o28 'update-mood-default))
+;; (define orbs-nsta (orbs-borrow-level 324 'orbs-nsta 'orbs-nsta-vis 'o29 'update-mood-default))
+;; (define orbs-nstb (orbs-borrow-level 325 'orbs-nstb 'orbs-nstb-vis 'o30 'update-mood-default))
+;; (define orbs-templea (orbs-borrow-level 326 'orbs-templea 'orbs-templea-vis 'o31 'update-mood-default))
+;; (define orbs-templex (orbs-borrow-level 327 'orbs-templex 'orbs-templex-vis 'o32 'update-mood-default))
+;; (define orbs-templec (orbs-borrow-level 328 'orbs-templec 'orbs-templec-vis 'o33 'update-mood-default))
+;; (define orbs-templed (orbs-borrow-level 329 'orbs-templed 'orbs-templed-vis 'o34 'update-mood-default))
+;; (define orbs-templeb (orbs-borrow-level 330 'orbs-templeb 'orbs-templeb-vis 'o35 'update-mood-default))
+;; (define orbs-hiphog (orbs-borrow-level 331 'orbs-hiphog 'orbs-hiphog-vis 'o36 'update-mood-default))
+;; (define orbs-ctyslumc (orbs-borrow-level 332 'orbs-ctyslumc 'orbs-ctyslumc-vis 'o37 'update-mood-default))
+;; (define orbs-ctyslumb (orbs-borrow-level 333 'orbs-ctyslumb 'orbs-ctyslumb-vis 'o38 'update-mood-default))
+;; (define orbs-powergd (orbs-borrow-level 334 'orbs-powergd 'orbs-powergd-vis 'o40 'update-mood-default))
+;; (define orbs-ctyport (orbs-borrow-level 335 'orbs-ctyport 'orbs-ctyport-vis 'o41 'update-mood-default))
+;; (define orbs-vinroom (orbs-borrow-level 336 'orbs-vinroom 'orbs-vinroom-vis 'o42 'update-mood-default))
+;; (define orbs-sewl (orbs-borrow-level 337 'orbs-sewl 'orbs-sewl-vis 'o43 'update-mood-default))
+;; (define orbs-sewm (orbs-borrow-level 338 'orbs-sewm 'orbs-sewm-vis 'o44 'update-mood-default))
+;; (define orbs-sewn (orbs-borrow-level 339 'orbs-sewn 'orbs-sewn-vis 'o45 'update-mood-default))
+;; (define orbs-sewo (orbs-borrow-level 340 'orbs-sewo 'orbs-sewo-vis 'o46 'update-mood-default))
+;; (define orbs-sewk (orbs-borrow-level 341 'orbs-sewk 'orbs-sewk-vis 'o47 'update-mood-default))
+;; (define orbs-sewg (orbs-borrow-level 342 'orbs-sewg 'orbs-sewg-vis 'o48 'update-mood-default))
+;; (define orbs-sewh (orbs-borrow-level 343 'orbs-sewh 'orbs-sewh-vis 'o49 'update-mood-default))
+;; (define orbs-sewi (orbs-borrow-level 344 'orbs-sewi 'orbs-sewi-vis 'o50 'update-mood-default))
+;; (define orbs-sewj (orbs-borrow-level 345 'orbs-sewj 'orbs-sewj-vis 'o51 'update-mood-default))
+;; (define orbs-sewb (orbs-borrow-level 346 'orbs-sewb 'orbs-sewb-vis 'o52 'update-mood-default))
+;; (define orbs-sewc (orbs-borrow-level 347 'orbs-sewc 'orbs-sewc-vis 'o53 'update-mood-default))
+;; (define orbs-sewd (orbs-borrow-level 348 'orbs-sewd 'orbs-sewd-vis 'o54 'update-mood-default))
+;; (define orbs-sewe (orbs-borrow-level 349 'orbs-sewe 'orbs-sewe-vis 'o55 'update-mood-default))
+;; (define orbs-ctysluma (orbs-borrow-level 350 'orbs-ctysluma 'orbs-ctysluma-vis 'o57 'update-mood-default))
+;; (define orbs-wascitya (orbs-borrow-level 351 'orbs-wascitya 'orbs-wascitya-vis 'o58 'update-mood-default))
+;; (define orbs-wascityb (orbs-borrow-level 352 'orbs-wascityb 'orbs-wascityb-vis 'o59 'update-mood-default))
+;; (define orbs-wasstada (orbs-borrow-level 353 'orbs-wasstada 'orbs-wasstada-vis 'o60 'update-mood-default))
+;; (define orbs-waspala (orbs-borrow-level 354 'orbs-waspala 'orbs-waspala-vis 'o61 'update-mood-default))
+;; (define orbs-stadium (orbs-borrow-level 355 'orbs-stadium 'orbs-stadium-vis 'o62 'update-mood-default))
+;; (define orbs-stadiumb (orbs-borrow-level 356 'orbs-stadiumb 'orbs-stadiumb-vis 'o63 'update-mood-default))
+;; (define orbs-comba (orbs-borrow-level 357 'orbs-comba 'orbs-comba-vis 'o64 'update-mood-default))
+;; (define orbs-combn (orbs-borrow-level 358 'orbs-combn 'orbs-combn-vis 'o65 'update-mood-default))
+;; (define orbs-combb (orbs-borrow-level 359 'orbs-combb 'orbs-combb-vis 'o66 'update-mood-default))
+;; (define orbs-combc (orbs-borrow-level 360 'orbs-combc 'orbs-combc-vis 'o67 'update-mood-default))
+;; (define orbs-combd (orbs-borrow-level 361 'orbs-combd 'orbs-combd-vis 'o68 'update-mood-default))
+;; (define orbs-combe (orbs-borrow-level 362 'orbs-combe 'orbs-combe-vis 'o69 'update-mood-default))
+;; (define orbs-railx (orbs-borrow-level 363 'orbs-railx 'orbs-railx-vis 'o70 'update-mood-default))
+;; (define orbs-railb (orbs-borrow-level 364 'orbs-railb 'orbs-railb-vis 'o71 'update-mood-default))
+;; (define orbs-railb2 (orbs-borrow-level 365 'orbs-railb2 'orbs-railb2-vis 'o72 'update-mood-default))
+;; (define orbs-railc (orbs-borrow-level 366 'orbs-railc 'orbs-railc-vis 'o73 'update-mood-default))
+;; (define orbs-raild (orbs-borrow-level 367 'orbs-raild 'orbs-raild-vis 'o74 'update-mood-default))
+;; (define orbs-raile (orbs-borrow-level 368 'orbs-raile 'orbs-raile-vis 'o75 'update-mood-default))
+;; (define orbs-railf (orbs-borrow-level 369 'orbs-railf 'orbs-railf-vis 'o76 'update-mood-default))
+;; (define orbs-deswalk (orbs-borrow-level 370 'orbs-deswalk 'orbs-deswalk-vis 'o77 'update-mood-default))
+;; (define orbs-wasstadb (orbs-borrow-level 371 'orbs-wasstadb 'orbs-wasstadb-vis 'o78 'update-mood-default))
+;; (define orbs-volcanoa (orbs-borrow-level 372 'orbs-volcanoa 'orbs-volcanoa-vis 'o79 'update-mood-default))
+;; (define orbs-volcanox (orbs-borrow-level 373 'orbs-volcanox 'orbs-volcanox-vis 'o80 'update-mood-default))
+;; (define orbs-lfacrm2 (orbs-borrow-level 374 'orbs-lfacrm2 'orbs-lfacrm2-vis 'o81 'update-mood-default))
+;; (define orbs-factoryd (orbs-borrow-level 375 'orbs-factoryd 'orbs-factoryd-vis 'o82 'update-mood-default))
+;; (define orbs-factoryb (orbs-borrow-level 376 'orbs-factoryb 'orbs-factoryb-vis 'o83 'update-mood-default))
+;; (define orbs-factoryc (orbs-borrow-level 377 'orbs-factoryc 'orbs-factoryc-vis 'o84 'update-mood-default))
+;; (define orbs-desert (orbs-borrow-level 378 'orbs-desert 'orbs-desert-vis 'o85 'update-mood-default))
+;; (define orbs-desertd (orbs-borrow-level 379 'orbs-desertd 'orbs-desertd-vis 'o86 'update-mood-default))
+;; (define orbs-desertb (orbs-borrow-level 380 'orbs-desertb 'orbs-desertb-vis 'o87 'update-mood-default))
+;; (define orbs-deserta (orbs-borrow-level 381 'orbs-deserta 'orbs-deserta-vis 'o88 'update-mood-default))
+;; (define orbs-desertf (orbs-borrow-level 382 'orbs-desertf 'orbs-desertf-vis 'o89 'update-mood-default))
+;; (define orbs-deserth (orbs-borrow-level 383 'orbs-deserth 'orbs-deserth-vis 'o90 'update-mood-default))
+;; (define orbs-desertg (orbs-borrow-level 384 'orbs-desertg 'orbs-desertg-vis 'o91 'update-mood-default))
+;; (define orbs-deserte (orbs-borrow-level 385 'orbs-deserte 'orbs-deserte-vis 'o92 'update-mood-default))
+;; (define orbs-desertc (orbs-borrow-level 386 'orbs-desertc 'orbs-desertc-vis 'o93 'update-mood-default))
+;; (define orbs-sewf (orbs-borrow-level 387 'orbs-sewf 'orbs-sewf-vis 'o94 'update-mood-default))
+;; (define orbs-ctyfarma (orbs-borrow-level 388 'orbs-ctyfarma 'orbs-ctyfarma-vis 'o95 'update-mood-default))
+;; (define orbs-ctyfarmb (orbs-borrow-level 389 'orbs-ctyfarmb 'orbs-ctyfarmb-vis 'o96 'update-mood-default))
 
-(set! (-> orbs-powergd priority) 10)
-(set! (-> orbs-vinroom priority) 10)
+;; (set! (-> orbs-powergd priority) 10)
+;; (set! (-> orbs-vinroom priority) 10)
 
-(logior! (-> orbs-comba  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-combn  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-combb  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-combc  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-combd  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-combe  level-flags) (level-flags turbo-board))
-;; (logior! (-> orbs-railx  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-railb  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-railb2 level-flags) (level-flags turbo-board))
-(logior! (-> orbs-railc  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-raild  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-raile  level-flags) (level-flags turbo-board))
-(logior! (-> orbs-railf  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-comba  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-combn  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-combb  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-combc  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-combd  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-combe  level-flags) (level-flags turbo-board))
+;; ;; (logior! (-> orbs-railx  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-railb  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-railb2 level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-railc  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-raild  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-raile  level-flags) (level-flags turbo-board))
+;; (logior! (-> orbs-railf  level-flags) (level-flags turbo-board))
 
-;; (define otit  (orbs-borrow-level #xe5 'otit  'otit-vis  'o1k 'update-mood-default))
+;; ;; (define otit  (orbs-borrow-level #xe5 'otit  'otit-vis  'o1k 'update-mood-default))
 
-(#when PC_PORT
-  ;; (cons! *level-load-list* 'test-zone)
+;; (#when PC_PORT
+;;   ;; (cons! *level-load-list* 'test-zone)
 
-  (cons! *level-load-list* 'orbs-ctyfarmb)
-  (cons! *level-load-list* 'orbs-ctyfarma)
-  (cons! *level-load-list* 'orbs-sewf)
-  (cons! *level-load-list* 'orbs-desertc)
-  (cons! *level-load-list* 'orbs-deserte)
-  (cons! *level-load-list* 'orbs-desertg)
-  (cons! *level-load-list* 'orbs-deserth)
-  (cons! *level-load-list* 'orbs-desertf)
-  (cons! *level-load-list* 'orbs-deserta)
-  (cons! *level-load-list* 'orbs-desertb)
-  (cons! *level-load-list* 'orbs-desertd)
-  (cons! *level-load-list* 'orbs-desert)
-  (cons! *level-load-list* 'orbs-factoryc)
-  (cons! *level-load-list* 'orbs-factoryb)
-  (cons! *level-load-list* 'orbs-factoryd)
-  (cons! *level-load-list* 'orbs-lfacrm2)
-  (cons! *level-load-list* 'orbs-volcanox)
-  (cons! *level-load-list* 'orbs-volcanoa)
-  (cons! *level-load-list* 'orbs-wasstadb)
-  (cons! *level-load-list* 'orbs-deswalk)
-  (cons! *level-load-list* 'orbs-railf)
-  (cons! *level-load-list* 'orbs-raile)
-  (cons! *level-load-list* 'orbs-raild)
-  (cons! *level-load-list* 'orbs-railc)
-  (cons! *level-load-list* 'orbs-railb2)
-  (cons! *level-load-list* 'orbs-railb)
-  (cons! *level-load-list* 'orbs-railx)
-  (cons! *level-load-list* 'orbs-combe)
-  (cons! *level-load-list* 'orbs-combd)
-  (cons! *level-load-list* 'orbs-combc)
-  (cons! *level-load-list* 'orbs-combb)
-  (cons! *level-load-list* 'orbs-combn)
-  (cons! *level-load-list* 'orbs-comba)
-  (cons! *level-load-list* 'orbs-stadiumb)
-  (cons! *level-load-list* 'orbs-stadium)
-  (cons! *level-load-list* 'orbs-waspala)
-  (cons! *level-load-list* 'orbs-wasstada)
-  (cons! *level-load-list* 'orbs-wascityb)
-  (cons! *level-load-list* 'orbs-wascitya)
-  (cons! *level-load-list* 'orbs-ctysluma)
-  (cons! *level-load-list* 'orbs-sewe)
-  (cons! *level-load-list* 'orbs-sewd)
-  (cons! *level-load-list* 'orbs-sewc)
-  (cons! *level-load-list* 'orbs-sewb)
-  (cons! *level-load-list* 'orbs-sewj)
-  (cons! *level-load-list* 'orbs-sewi)
-  (cons! *level-load-list* 'orbs-sewh)
-  (cons! *level-load-list* 'orbs-sewg)
-  (cons! *level-load-list* 'orbs-sewk)
-  (cons! *level-load-list* 'orbs-sewo)
-  (cons! *level-load-list* 'orbs-sewn)
-  (cons! *level-load-list* 'orbs-sewm)
-  (cons! *level-load-list* 'orbs-sewl)
-  (cons! *level-load-list* 'orbs-vinroom)
-  (cons! *level-load-list* 'orbs-ctyport)
-  (cons! *level-load-list* 'orbs-powergd)
-  (cons! *level-load-list* 'orbs-ctyslumb)
-  (cons! *level-load-list* 'orbs-ctyslumc)
-  (cons! *level-load-list* 'orbs-hiphog)
-  (cons! *level-load-list* 'orbs-templeb)
-  (cons! *level-load-list* 'orbs-templed)
-  (cons! *level-load-list* 'orbs-templec)
-  (cons! *level-load-list* 'orbs-templex)
-  (cons! *level-load-list* 'orbs-templea)
-  (cons! *level-load-list* 'orbs-nstb)
-  (cons! *level-load-list* 'orbs-nsta)
-  (cons! *level-load-list* 'orbs-ltowerb)
-  (cons! *level-load-list* 'orbs-ltowera)
-  (cons! *level-load-list* 'orbs-towerb)
-  (cons! *level-load-list* 'orbs-mhcitya)
-  (cons! *level-load-list* 'orbs-mhcityb)
-  (cons! *level-load-list* 'orbs-ctygenb)
-  (cons! *level-load-list* 'orbs-ctyinda)
-  (cons! *level-load-list* 'orbs-ctyindb)
-  (cons! *level-load-list* 'orbs-forestb)
-  (cons! *level-load-list* 'orbs-foresta)
-  (cons! *level-load-list* 'orbs-halfpipe)
-  (cons! *level-load-list* 'orbs-gungame)
-  (cons! *level-load-list* 'orbs-wasdoors)
-  (cons! *level-load-list* 'orbs-lfacrm1)
-  (cons! *level-load-list* 'orbs-freehq)
-  (cons! *level-load-list* 'orbs-mined)
-  (cons! *level-load-list* 'orbs-minea)
-  (cons! *level-load-list* 'orbs-mineb)
-  (cons! *level-load-list* 'orbs-minec)
-  (cons! *level-load-list* 'orbs-precura)
-  (cons! *level-load-list* 'orbs-precurb)
-  (cons! *level-load-list* 'orbs-precurc)
-  (cons! *level-load-list* 'orbs-precurd)
-  (cons! *level-load-list* 'orbs-rublcst)
-  (cons! *level-load-list* 'orbs-rubblec)
-  (cons! *level-load-list* 'orbs-rubbleb)
-  (cons! *level-load-list* 'orbs-rubblea2)
-  (cons! *level-load-list* 'orbs-rubblea)
-  )
+;;   (cons! *level-load-list* 'orbs-ctyfarmb)
+;;   (cons! *level-load-list* 'orbs-ctyfarma)
+;;   (cons! *level-load-list* 'orbs-sewf)
+;;   (cons! *level-load-list* 'orbs-desertc)
+;;   (cons! *level-load-list* 'orbs-deserte)
+;;   (cons! *level-load-list* 'orbs-desertg)
+;;   (cons! *level-load-list* 'orbs-deserth)
+;;   (cons! *level-load-list* 'orbs-desertf)
+;;   (cons! *level-load-list* 'orbs-deserta)
+;;   (cons! *level-load-list* 'orbs-desertb)
+;;   (cons! *level-load-list* 'orbs-desertd)
+;;   (cons! *level-load-list* 'orbs-desert)
+;;   (cons! *level-load-list* 'orbs-factoryc)
+;;   (cons! *level-load-list* 'orbs-factoryb)
+;;   (cons! *level-load-list* 'orbs-factoryd)
+;;   (cons! *level-load-list* 'orbs-lfacrm2)
+;;   (cons! *level-load-list* 'orbs-volcanox)
+;;   (cons! *level-load-list* 'orbs-volcanoa)
+;;   (cons! *level-load-list* 'orbs-wasstadb)
+;;   (cons! *level-load-list* 'orbs-deswalk)
+;;   (cons! *level-load-list* 'orbs-railf)
+;;   (cons! *level-load-list* 'orbs-raile)
+;;   (cons! *level-load-list* 'orbs-raild)
+;;   (cons! *level-load-list* 'orbs-railc)
+;;   (cons! *level-load-list* 'orbs-railb2)
+;;   (cons! *level-load-list* 'orbs-railb)
+;;   (cons! *level-load-list* 'orbs-railx)
+;;   (cons! *level-load-list* 'orbs-combe)
+;;   (cons! *level-load-list* 'orbs-combd)
+;;   (cons! *level-load-list* 'orbs-combc)
+;;   (cons! *level-load-list* 'orbs-combb)
+;;   (cons! *level-load-list* 'orbs-combn)
+;;   (cons! *level-load-list* 'orbs-comba)
+;;   (cons! *level-load-list* 'orbs-stadiumb)
+;;   (cons! *level-load-list* 'orbs-stadium)
+;;   (cons! *level-load-list* 'orbs-waspala)
+;;   (cons! *level-load-list* 'orbs-wasstada)
+;;   (cons! *level-load-list* 'orbs-wascityb)
+;;   (cons! *level-load-list* 'orbs-wascitya)
+;;   (cons! *level-load-list* 'orbs-ctysluma)
+;;   (cons! *level-load-list* 'orbs-sewe)
+;;   (cons! *level-load-list* 'orbs-sewd)
+;;   (cons! *level-load-list* 'orbs-sewc)
+;;   (cons! *level-load-list* 'orbs-sewb)
+;;   (cons! *level-load-list* 'orbs-sewj)
+;;   (cons! *level-load-list* 'orbs-sewi)
+;;   (cons! *level-load-list* 'orbs-sewh)
+;;   (cons! *level-load-list* 'orbs-sewg)
+;;   (cons! *level-load-list* 'orbs-sewk)
+;;   (cons! *level-load-list* 'orbs-sewo)
+;;   (cons! *level-load-list* 'orbs-sewn)
+;;   (cons! *level-load-list* 'orbs-sewm)
+;;   (cons! *level-load-list* 'orbs-sewl)
+;;   (cons! *level-load-list* 'orbs-vinroom)
+;;   (cons! *level-load-list* 'orbs-ctyport)
+;;   (cons! *level-load-list* 'orbs-powergd)
+;;   (cons! *level-load-list* 'orbs-ctyslumb)
+;;   (cons! *level-load-list* 'orbs-ctyslumc)
+;;   (cons! *level-load-list* 'orbs-hiphog)
+;;   (cons! *level-load-list* 'orbs-templeb)
+;;   (cons! *level-load-list* 'orbs-templed)
+;;   (cons! *level-load-list* 'orbs-templec)
+;;   (cons! *level-load-list* 'orbs-templex)
+;;   (cons! *level-load-list* 'orbs-templea)
+;;   (cons! *level-load-list* 'orbs-nstb)
+;;   (cons! *level-load-list* 'orbs-nsta)
+;;   (cons! *level-load-list* 'orbs-ltowerb)
+;;   (cons! *level-load-list* 'orbs-ltowera)
+;;   (cons! *level-load-list* 'orbs-towerb)
+;;   (cons! *level-load-list* 'orbs-mhcitya)
+;;   (cons! *level-load-list* 'orbs-mhcityb)
+;;   (cons! *level-load-list* 'orbs-ctygenb)
+;;   (cons! *level-load-list* 'orbs-ctyinda)
+;;   (cons! *level-load-list* 'orbs-ctyindb)
+;;   (cons! *level-load-list* 'orbs-forestb)
+;;   (cons! *level-load-list* 'orbs-foresta)
+;;   (cons! *level-load-list* 'orbs-halfpipe)
+;;   (cons! *level-load-list* 'orbs-gungame)
+;;   (cons! *level-load-list* 'orbs-wasdoors)
+;;   (cons! *level-load-list* 'orbs-lfacrm1)
+;;   (cons! *level-load-list* 'orbs-freehq)
+;;   (cons! *level-load-list* 'orbs-mined)
+;;   (cons! *level-load-list* 'orbs-minea)
+;;   (cons! *level-load-list* 'orbs-mineb)
+;;   (cons! *level-load-list* 'orbs-minec)
+;;   (cons! *level-load-list* 'orbs-precura)
+;;   (cons! *level-load-list* 'orbs-precurb)
+;;   (cons! *level-load-list* 'orbs-precurc)
+;;   (cons! *level-load-list* 'orbs-precurd)
+;;   (cons! *level-load-list* 'orbs-rublcst)
+;;   (cons! *level-load-list* 'orbs-rubblec)
+;;   (cons! *level-load-list* 'orbs-rubbleb)
+;;   (cons! *level-load-list* 'orbs-rubblea2)
+;;   (cons! *level-load-list* 'orbs-rubblea)
+;;   )
