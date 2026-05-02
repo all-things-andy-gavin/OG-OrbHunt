@@ -637,6 +637,10 @@
 (defun orbs-save-to-file-2 () (orbs-save-to-file 2))
 (defun orbs-save-to-file-3 () (orbs-save-to-file 3))
 (defun orbs-save-to-file-4 () (orbs-save-to-file 4))
+(defun orbs-save-to-file-5 () (orbs-save-to-file 5))
+(defun orbs-save-to-file-6 () (orbs-save-to-file 6))
+(defun orbs-save-to-file-7 () (orbs-save-to-file 7))
+(defun orbs-save-to-file-8 () (orbs-save-to-file 8))
 
 (defun orbs-load ((filenum int))
   (format (clear *pc-temp-string-1*) "~S/~S~D.gc" *pc-settings-folder* *orba-filename* filenum)
@@ -658,3 +662,7 @@
 (defun orbs-load-2 () (orbs-load 2))
 (defun orbs-load-3 () (orbs-load 3))
 (defun orbs-load-4 () (orbs-load 4))
+(defun orbs-load-5 () (orbs-load 5))
+(defun orbs-load-6 () (orbs-load 6))
+(defun orbs-load-7 () (orbs-load 7))
+(defun orbs-load-8 () (orbs-load 8))
